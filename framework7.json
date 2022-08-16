@@ -1,0 +1,20 @@
+{
+  "cwd": "/Applications/XAMPP/xamppfiles/htdocs/kog",
+  "type": [
+    "web",
+    "pwa"
+  ],
+  "name": "KOG EYE CARE",
+  "framework": "core",
+  "template": "split-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}

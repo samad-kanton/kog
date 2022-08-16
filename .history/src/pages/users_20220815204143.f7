@@ -1,0 +1,91 @@
+<template>
+    <div class="page" data-name="users">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner sliding">
+          <div class="left">
+            <a href="#" class="back link">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>
+          </div>
+          <div class="title">Users</div>
+        </div>
+      </div>
+      
+      <div class="page-content">
+
+        <form role="form" id="form-signup">
+            <div class="list no-hairlines">
+                <ul class="row">
+                    <li class="col-50 item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">First Name</div>
+                            <div class="item-input-wrap">
+                                <input type="text" name="fname" placeholder="type your firstname" required />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-50 item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Last Name</div>
+                            <div class="item-input-wrap">
+                                <input type="text" name="lname" placeholder="type your lastname" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-100 item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Phone Number</div>
+                            <div class="item-input-wrap">
+                                <input type="tel" name="phone" placeholder="type your phone number" required />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-100 item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Email Address</div>
+                            <div class="item-input-wrap">
+                                <input type="email" name="email" placeholder="type your email" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-50 item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Password</div>
+                            <div class="item-input-wrap">
+                                <input type="password" name="password" placeholder="type your password" required />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-50 item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Confirm Password</div>
+                            <div class="item-input-wrap">
+                                <input type="password" name="repassword" placeholder="re-enter password" required />
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="block">
+                <button type="submit" class="button button-large">Sign In</button>
+            </div>
+        </form>
+        <!-- <div class="list links-list">
+          <ul>
+            
+          </ul>
+        </div> -->
+      </div>
+    </div>
+</template>
+
+<script>
+    import { Tabulator }
+    export default (props) => {
+
+        return $render;
+    }
+</script>
+  
